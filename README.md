@@ -18,7 +18,7 @@ A simple Java implementation of the classic **Tetris** game, developed as part o
 
 ---
 
-## 🛠️ Build & Run
+## 🛠️ Build, Run & Controls
 Compile the project with `javac`, then run it with `java`.
 
 ```bash
@@ -28,3 +28,10 @@ javac -d bin -cp src $(find src -name "*.java")
 # Run the main class (adjust if your entry point differs)
 java -cp bin swen221.tetris.gui.Main
 
+# 🎮 Controls
+# 7  → Rotate piece left
+# 9  → Rotate piece right
+# 4  → Move left
+# 6  → Move right
+# 5  → Soft drop (move down)
+# Spacebar → Hard drop / landing
